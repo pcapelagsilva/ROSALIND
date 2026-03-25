@@ -1,3 +1,5 @@
+# Abre a caixa de ferramentas de Bioinformática
+# SeqIO --> É o padrão para lidar com arquivos FASTA.
 from Bio import SeqIO
 
 def find_lcs(fasta_file):
@@ -15,4 +17,4 @@ def find_lcs(fasta_file):
                 return susbtring
     return ""
 
-print(find_lcs("dados_LCSM.txt"))
+print(find_lcs("dados_LCSM.fasta"))
