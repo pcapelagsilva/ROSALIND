@@ -1,6 +1,6 @@
 # 1. A String:
 # São os dados visíveis, na bioinformática seriam as letras A, C, T, G
-x = "xxyzyxzzxzxyxyyzxxzzxxyyxxyxyzzxxyzyzxzxxyxyyzxxzx"
+x = "yxyyxzyzyzxxyyyxyzzyxyyyxxyyyyzxxxxyxxxxxxyxyxxxxy"
 
 alfabeto = "x", "y", "z"
 
@@ -8,11 +8,11 @@ alfabeto = "x", "y", "z"
 # Representa o que esta acontecendo "por de trás das câmeras"
 # Se estivéssemos falando de clima: A seria Sol e B seria Chuva.
 # No modelo abaixo diz em qual estado o modelo estava em cada segundo.
-caminho = "BBBAAABABABBBBBBAAAAAABAAAABABABBBBBABAABABABABBBB"
+caminho = "BABABBBBBABBABABBBBBAAABABBABBAAAABABBABBBAAABBBAA"
 
 emissão = {
-    'A': {'x':0.612, 'y':0.314, 'z':0.074},
-    'B': {'x':0.346, 'y':0.317, 'z':0.336}
+    'A': {'x':0.49, 'y':0.264, 'z':0.246},
+    'B': {'x':0.517, 'y':0.085, 'z':0.398}
 }
 
 prob = 1.0
