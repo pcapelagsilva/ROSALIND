@@ -115,3 +115,51 @@ de 3 em relação ao Start Codon.
 resultado = seq_orf(dna)
 print(f"Sequência original: {dna}")
 print(f"ORF encontrada: {resultado}")'''
+
+'''
+EXERCÍCIO 4: Identificador de Mutação de Ponto (SNP)
+-------------------------------------------------------------------------
+CONTEXTO: Um SNP (Single Nucleotide Polymorphism) ocorre quando uma única 
+base na sequência difere entre indivíduos.
+
+DESAFIO:
+1. Receba duas sequências de DNA de mesmo tamanho (Referência e Amostra).
+2. O script deve comparar as duas e retornar uma lista de strings 
+   indicando a posição e a mudança.
+   Exemplo: "Posição 4: A -> G"
+
+DICA: Use a função zip(seq1, seq2) para comparar as letras lado a lado.
+-------------------------------------------------------------------------
+'''
+
+'''
+EXERCÍCIO 5: Localizador de Motifs com "Mismatches"
+-------------------------------------------------------------------------
+CONTEXTO: Na biologia, proteínas nem sempre se ligam a sequências 
+perfeitas; às vezes, elas aceitam um ou dois erros na sequência.
+
+DESAFIO:
+1. Dada uma sequência alvo (ex: "GATACA") e um genoma longo.
+2. Encontre todas as posições onde o "GATACA" aparece com, no máximo, 
+   1 letra errada.
+   Exemplo: "GATAGA" seria aceito, mas "GATCCC" não.
+
+DICA: Reutilize a lógica da janela deslizante e compare a janela 
+atual com o seu motif alvo.
+-------------------------------------------------------------------------
+'''
+
+'''
+EXERCÍCIO 6: Simulador de Enzima de Restrição (Corte)
+-------------------------------------------------------------------------
+CONTEXTO: Enzimas de restrição "cortam" o DNA em locais específicos. 
+A enzima EcoRI, por exemplo, corta sempre na sequência "GAATTC".
+
+DESAFIO:
+1. Crie uma função que receba uma sequência de DNA.
+2. Onde encontrar "GAATTC", o script deve "quebrar" a string e 
+   retornar uma lista com os fragmentos resultantes.
+
+DICA: O Python tem o método .split() que faz exatamente isso para strings!
+-------------------------------------------------------------------------
+'''
